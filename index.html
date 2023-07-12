@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <!-- Form Login -->
+        <div class="formLogin" id="formLogin">
+            <h1>Login</h1>
+            <ul>
+                <li><span><i class="fa-solid fa-user"></i></span><input type="text" placeholder="Username"
+                        id="usernameLogin"></li>
+                <li><span><i class="fa-solid fa-lock"></i></span><input type="password" placeholder="Password"
+                        id="passwordLogin"></li>
+                <li><a href="#">Lupa Passwor?</a></li>
+                <button onclick="login()" id="loginButton" class="loginButton">Login</button>
+                <div class="alert" role="alert" id="alert1">Belum punya akun? Buat akun terlebih dahulu</div>
+                <div class="alert" role="alert" id="alert2">Login Gagal!! Coba Periksa Username dan Password anda!</div>
+                <div><a href="#" class="goSignUp" id="goSignUp" onclick="goSi()">Buat akun?</a></div>
+                <div class="footer"><span><a href="#">Tentang</a></span><span><a href="#">Privasi</a></span><span><a
+                            href="#">Kontak</a></span></div>
+            </ul>
+        </div>
+        <!-- form Daftar -->
+        <div class="formSignUp" id="formSignUp">
+            <h1>Daftar</h1>
+            <ul>
+                <li><span><i class="fa-solid fa-user"></i></span><input type="text" placeholder="Username"
+                        id="usernameSignUp"></li>
+                <li><span><i class="fa-solid fa-envelope"></i></span><input type="email" placeholder="Email"
+                        id="emailSignUp"></li>
+                <li><span><i class="fa-solid fa-lock"></i></span><input type="password" placeholder="Password"
+                        id="passwordSignUp"></li>
+                <button onclick="daftar()" id="signUpButton" class="signUpButton">Daftar</button>
+                <li><a href="#" onclick="goLo()" class="goLogin" id="goLogin">Sudah punya akun? Login</a></li>
+                <div class="alert" role="alert" id="alert3">Pastikan untuk mengisi semuanya !</div>
+                <div class="footer"><span><a href="#">Tentang</a></span><span><a href="#">Privasi</a></span><span><a
+                            href="#">Kontak</a></span></div>
+            </ul>
+        </div>
+        <!-- Success Form -->
+        <div class="succesForm" id="succesForm">
+            <div class="successSignUp" id="successSignUp">
+                <h1>Daftar Berhasil</h1>
+                <span>Selamat anda telah membuat akun silakan <a href="#" onclick="SignUpGoLo()"
+                        id="successSignUpGoLo">Login</a></span>
+            </div>
+            <div class="successLogin" id="successLogin">
+                <h1>Login Berhasil</h1>
+                <span>Selamat datang</span>
+                <p id="nama"></p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button class="logOutButton" id="logOutButton" onclick="logOut()">Log Out</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5d56a543de.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

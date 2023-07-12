@@ -1,0 +1,357 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #333 ;
+    background-size: cover;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 103px;
+    text-align: center;
+}
+
+.formLogin {
+    width: 20rem;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 15px;
+    display: inline-block;
+}
+.formLogin h1 {
+    margin-top: 12px;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.formLogin ul  {
+    list-style: none;
+    
+}
+.formLogin ul li{
+    padding: 10px;
+}
+
+i {
+    color: #ffffff;
+}
+
+.formLogin ul li input{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+    border: 1px solid;
+    box-sizing: border-box;
+
+}
+
+.formLogin ul li span {
+    padding-right: 15px;
+    
+}
+
+.formLogin ul li a{
+    text-decoration: none;
+    color: rgb(3, 49, 255);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.formLogin ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.formLogin ul .alert {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    text-align: start;
+}
+
+.formLogin ul .goSignUp {
+    text-decoration: none;
+    color: rgb(3, 49, 255);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.formLogin ul .goSignUp:hover {
+    text-decoration: underline;
+    color: rgb(0, 255, 0);
+}
+
+.formLogin .loginButton{
+    display: inline-block;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgb(4, 0, 255);
+    border: 2px solid rgb(66, 208, 255);
+    border-radius: 7px;
+    padding: 8px 50px;
+    margin-bottom: 25px;
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.formLogin .loginButton:hover {
+    background-color: rgb(66, 208, 255);
+    color: #000000;
+    border: 2px solid rgb(4, 0, 255);
+    cursor: pointer;
+}
+.formLogin ul .footer span a {
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(66, 208, 255);
+}
+
+.formLogin ul .footer span a:hover {
+    text-decoration: underline;
+    color: rgb(4, 0, 255);
+}
+
+/* Dafatar */
+
+.formSignUp {
+    width: 20rem;
+    margin: auto;   
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 14px;
+    display: inline-block;
+}
+.formSignUp h1 {
+    margin-top: 12px;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.formSignUp ul  {
+    list-style: none;
+    
+}
+.formSignUp ul li{
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+i {
+    color: #ffffff;
+}
+
+.formSignUp ul li input{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.formSignUp ul li span {
+    padding-right: 15px;
+    
+}
+
+.formSignUp ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.formSignUp  ul li a:hover {
+    color: rgb(0, 255, 0);
+}
+
+.formSignUp ul .alert {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    text-align: start;
+}
+
+.formSignUp ul .footer span a {
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(66, 208, 255);
+}
+
+.formSignUp ul .footer span a:hover {
+    text-decoration: underline;
+    color: rgb(4, 0, 255);
+}
+
+.formSignUp .signUpButton {
+    display: inline-block;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgb(4, 0, 255);
+    border: 2px solid rgb(66, 208, 255);
+    border-radius: 7px;
+    padding: 8px 50px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.formSignUp .signUpButton:hover {
+    background-color: rgb(66, 208, 255);
+    color: #000000;
+    border: 2px solid rgb(4, 0, 255);
+    cursor: pointer;
+}
+
+
+/* success Form */
+
+/*  */
+
+.succesForm {
+    padding-top: 99px;
+}
+ .successSignUp {
+    width: 20rem;
+    margin-top: 3rem;
+    margin: auto;   
+    padding: 17px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.successSignUp h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+
+}
+
+.successSignUp span {
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.successSignUp span a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.successSignUp span a:hover {
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+}
+
+.successLogin {
+    width: 20rem;
+    margin: auto;   
+    padding: 12px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.successLogin h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 19px;
+
+}
+
+.successLogin span {
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.successLogin p {
+    color: rgb(0, 157, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.successLogin .logOutButton {
+    display: inline-block;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgb(206, 37, 37);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    padding: 8px 23px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.successLogin .logOutButton:hover {
+    background-color: rgb(255, 0, 0);
+    color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
